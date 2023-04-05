@@ -1,0 +1,6 @@
+.nav-pills > .nav-item > a.active {
+    background-color: red;
+}
+.nav-pills > .nav-item > a {
+    color: black;
+}

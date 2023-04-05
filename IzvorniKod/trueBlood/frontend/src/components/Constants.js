@@ -1,0 +1,1 @@
+export const SPRING_URL = 'http://localhost:8080';

@@ -1,0 +1,77 @@
+#sveSkup {
+    border: 2px;
+    position: relative;
+    padding: 50px 0 0px 0px;
+    font-family: Arial, sans-serif;
+}
+
+#sveSkup .cijela {
+    float: left;
+    position: relative;
+    margin: 50px 20px 0 0;
+}
+
+#sveSkup .cijela .gornjaGranica {
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    height: 3px;
+    background: #000000;
+    z-index: 3;
+}
+
+#sveSkup .cijela .donjaGranica {
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    height: 3px;
+    background: #000000;
+    z-index: 3;
+}
+
+#sveSkup .cijela .imeGrupe {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    width: 32px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+#sveSkup .cijela .epruveta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 300px;
+    background: url(epruveta.gif);
+    z-index: 2;
+}
+
+#sveSkup .cijela .fix {
+    position: relative;
+    bottom: 0;
+    width: 60px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#sveSkup .cijela .kolicKrvi {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    background: url(krvSlika.gif) no-repeat;
+    overflow: hidden;
+}
+
+#cijela #popup {
+    display: none;
+  }
+  
+#cijela:hover #popup {
+    display: block;
+}
+
+
